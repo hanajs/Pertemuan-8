@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Template Bootstrap 101</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <style>
+    body {
+      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    h1, h3 {
+      color: #343a40;
+    }
+
+    address {
+      margin-bottom: 20px;
+    }
+
+    ul.list-unstyled {
+      padding-left: 20px;
+    }
+
+    ul.list-unstyled ul {
+      padding-left: 20px;
+    }
+
+    table {
+      margin-top: 20px;
+      background-color: white;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    caption {
+      caption-side: top;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    th, td {
+      border: 2px solid #dee2e6; /* Menambah garis tebal pada kotak */
+      padding: 10px;
+      text-align: center;
+    }
+
+    thead {
+      background-color: #343a40;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Halo, dunia!</h1>
+
+  <address>
+    <strong>Satya Wacana Christian University</strong><br>
+    Jl. Diponegoro 52-60<br>
+    Salatiga, Central Java<br>
+    <abbr title="Phone">P:</abbr> 0298-321212
+  </address>
+
+  <address>
+    <strong>Information:</strong><br>
+    <a href="mailto:info@uksw.edu">info@uksw.edu</a>
+  </address>
+
+  <h3>Favorite Outdoor Activities</h3>
+  <ul class="list-unstyled">
+    <li>Backpacking in Yosemite</li>
+    <li>Hiking in Arches
+      <ul>
+        <li>Delicate Arch</li>
+        <li>Park Avenue</li>
+      </ul>
+    </li>
+    <li>Biking the Flintstones Trail</li>
+  </ul>
+
+  <table class="table">
+    <caption>User Data</caption>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nama</th>
+        <th>User ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Budi</td>
+        <td>hhalat</td>
+      </tr>
+      <tr style="background-color: #d4edda;">
+        <td>2</td>
+        <td>Susi</td>
+        <td>eesula</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Eva</td>
+        <td>mmridh</td>
+      </tr>
+      <tr style="background-color: #d1ecf1;">
+        <td>4</td>
+        <td>Solikin</td>
+        <td>ffazza</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- jQuery dan Bootstrap JS -->
+  <script src="bootstrap/js/jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
